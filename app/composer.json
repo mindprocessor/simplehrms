@@ -1,0 +1,7 @@
+{
+    "require": {
+        "bcosca/fatfree-core": "^3.8",
+        "catfan/medoo": "^2.1",
+        "vlucas/valitron": "^1.4"
+    }
+}

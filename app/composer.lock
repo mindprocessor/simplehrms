@@ -1,0 +1,189 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3995ad3a6325644b3a9ef0c70ba2262f",
+    "packages": [
+        {
+            "name": "bcosca/fatfree-core",
+            "version": "3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/f3-factory/fatfree-core.git",
+                "reference": "f6ea45472f55a1ecabd4ced74cb56f0efd6af34e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/f3-factory/fatfree-core/zipball/f6ea45472f55a1ecabd4ced74cb56f0efd6af34e",
+                "reference": "f6ea45472f55a1ecabd4ced74cb56f0efd6af34e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "A powerful yet easy-to-use PHP micro-framework designed to help you build dynamic and robust Web applications - fast!",
+            "homepage": "http://fatfreeframework.com/",
+            "support": {
+                "issues": "https://github.com/f3-factory/fatfree-core/issues",
+                "source": "https://github.com/f3-factory/fatfree-core/tree/3.8.1"
+            },
+            "time": "2022-11-04T23:15:19+00:00"
+        },
+        {
+            "name": "catfan/medoo",
+            "version": "v2.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "15a53403baa84b3c288f0f9419aa6338acbb82da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/15a53403baa84b3c288f0f9419aa6338acbb82da",
+                "reference": "15a53403baa84b3c288f0f9419aa6338acbb82da",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Medoo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@medoo.in"
+                }
+            ],
+            "description": "The lightweight PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
+            "keywords": [
+                "database",
+                "database library",
+                "lightweight",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "php framework",
+                "postgresql",
+                "sql",
+                "sqlite"
+            ],
+            "support": {
+                "issues": "https://github.com/catfan/Medoo/issues",
+                "source": "https://github.com/catfan/Medoo"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/AngelaonLai",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://opencollective.com/medoo",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-05-23T02:46:00+00:00"
+        },
+        {
+            "name": "vlucas/valitron",
+            "version": "v1.4.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/valitron.git",
+                "reference": "fadce39f5f235755bb9794b2573af2d5bfcba85f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/fadce39f5f235755bb9794b2573af2d5bfcba85f",
+                "reference": "fadce39f5f235755bb9794b2573af2d5bfcba85f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8.35"
+            },
+            "suggest": {
+                "ext-mbstring": "It can support the multiple bytes string length."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Valitron\\": "src/Valitron"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "https://www.vancelucas.com"
+                }
+            ],
+            "description": "Simple, elegant, stand-alone validation library with NO dependencies",
+            "homepage": "https://github.com/vlucas/valitron",
+            "keywords": [
+                "valid",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/vlucas/valitron/issues",
+                "source": "https://github.com/vlucas/valitron/tree/v1.4.11"
+            },
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/valitron",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-10-14T11:54:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
