@@ -1,5 +1,8 @@
 <?php
 
+/** there is no password hashing here **/
+/** impliment your own password hashing **/
+
 class Authenticate extends BaseController {
 
     public function login($f3){
